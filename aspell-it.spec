@@ -3,7 +3,7 @@ Summary(pl):	W³oski s³ownik dla aspella
 Name:		aspell-it
 Version:	0.50
 %define	subv	2
-Release:	1
+Release:	2
 Epoch:		1
 License:	GPL (?)
 Group:		Applications/Text
