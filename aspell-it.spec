@@ -1,5 +1,5 @@
 Summary:	Italian dictionary for aspell
-Summary(pl):	W這ski s這wnik dla aspella
+Summary(pl):	S這wnik w這ski dla aspella
 Name:		aspell-it
 Version:	0.53
 %define	subv	0
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Italian dictionary (i.e. word list) for aspell.
 
 %description -l pl
-W這ski s這wnik (lista s堯w) dla aspella.
+S這wnik (lista s堯w) w這ski dla aspella.
 
 %prep
 %setup -q -n %{name}-%{version}-%{subv}
