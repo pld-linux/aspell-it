@@ -1,14 +1,14 @@
 Summary:	Italian dictionary for aspell
 Summary(pl):	W³oski s³ownik dla aspella
 Name:		aspell-it
-Version:	0.50
-%define	subv	2
-Release:	2
+Version:	0.53
+%define	subv	0
+Release:	1
 Epoch:		1
 License:	GPL (?)
 Group:		Applications/Text
 Source0:	ftp://ftp.gnu.org/gnu/aspell/dict/it/%{name}-%{version}-%{subv}.tar.bz2
-# Source0-md5:	efa602e47fc49db2cc670f7e5c1628e1
+# Source0-md5:	ab3cce02bf8bfdf4116f9f7e602cf4b7
 URL:		http://aspell.sourceforge.net/
 BuildRequires:	aspell >= 0.50.0
 Requires:	aspell >= 0.50.0
