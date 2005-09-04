@@ -1,17 +1,17 @@
 Summary:	Italian dictionary for aspell
 Summary(pl):	W這ski s這wnik dla aspella
 Name:		aspell-it
-Version:	0.53
+Version:	2.2_20050523
 %define	subv	0
 Release:	1
 Epoch:		1
-License:	GPL (?)
+License:	GPL v2+
 Group:		Applications/Text
-Source0:	ftp://ftp.gnu.org/gnu/aspell/dict/it/%{name}-%{version}-%{subv}.tar.bz2
-# Source0-md5:	ab3cce02bf8bfdf4116f9f7e602cf4b7
+Source0:	ftp://ftp.gnu.org/gnu/aspell/dict/it/aspell6-it-%{version}-%{subv}.tar.bz2
+# Source0-md5:	b1217299a0b67d1e121494d7ec18a88d
 URL:		http://aspell.sourceforge.net/
-BuildRequires:	aspell >= 2:0.50.0
-Requires:	aspell >= 2:0.50.0
+BuildRequires:	aspell >= 3:0.60.0
+Requires:	aspell >= 3:0.60.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -21,7 +21,7 @@ Italian dictionary (i.e. word list) for aspell.
 W這ski s這wnik (lista s堯w) dla aspella.
 
 %prep
-%setup -q -n %{name}-%{version}-%{subv}
+%setup -q -n aspell6-it-%{version}-%{subv}
 
 %build
 # note: configure is not autoconf-generated
