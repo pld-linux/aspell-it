@@ -1,5 +1,5 @@
 Summary:	Italian dictionary for aspell
-Summary(pl.UTF-8):   Włoski słownik dla aspella
+Summary(pl.UTF-8):	Włoski słownik dla aspella
 Name:		aspell-it
 Version:	2.2_20050523
 %define	subv	0
