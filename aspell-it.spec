@@ -1,5 +1,5 @@
 Summary:	Italian dictionary for aspell
-Summary(pl):	W³oski s³ownik dla aspella
+Summary(pl.UTF-8):   WÅ‚oski sÅ‚ownik dla aspella
 Name:		aspell-it
 Version:	2.2_20050523
 %define	subv	0
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Italian dictionary (i.e. word list) for aspell.
 
-%description -l pl
-W³oski s³ownik (lista s³ów) dla aspella.
+%description -l pl.UTF-8
+WÅ‚oski sÅ‚ownik (lista sÅ‚Ã³w) dla aspella.
 
 %prep
 %setup -q -n aspell6-it-%{version}-%{subv}
