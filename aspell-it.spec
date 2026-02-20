@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	Włoski słownik dla aspella
 Name:		aspell-it
 Version:	2.2_20050523
 %define	subv	0
-Release:	1
+Release:	2
 Epoch:		1
 License:	GPL v2+
 Group:		Applications/Text
